@@ -14,7 +14,11 @@ public class HelloWorldServlet extends GenericServlet{
 	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
 		res.setContentType("text/html");
 		PrintWriter pw =res.getWriter();
-		pw.println("welcome to servlets");
+		pw.println("<html>");
+		pw.println("<body>");
+		pw.println("<h2>welcome to servlets</h2>");
+		pw.println("</body>");
+		pw.println("</html>");
 		
 	}
 
