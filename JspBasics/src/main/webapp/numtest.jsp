@@ -7,8 +7,6 @@
 </head>
 <body>
 <jsp:include page="header.jsp" />
-
-
 	Add 5 to 11 = <%= Utils.add5ToNumber(11) %>
 <jsp:include page="footer.jsp" />
 </body>

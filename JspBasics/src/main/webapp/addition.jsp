@@ -16,5 +16,6 @@
 	<h1>Sum of <%= num1 %> and <%= num2 %> = <%= num1+num2 %> </h1>
 
 <jsp:include page="footer.jsp" />
+
 </body>
 </html>
